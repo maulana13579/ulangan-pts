@@ -1,0 +1,101 @@
+.isi1 {
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    text-align: center;
+    color:red;
+    font-weight: bold;
+}
+
+.isi2 {
+    background-color: rgb(255, 255, 255);
+    color: red;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+}
+.isi1,
+.isi2 {
+    padding: 20px;
+    text-align: center;
+}
+
+.produk {
+    background-color: white;
+    color: rgb(181, 2, 2);
+}
+
+
+.title {
+    padding: 20px;
+}
+
+.produk {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.tables {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.tables ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.tables ul li {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.1);
+}
+
+
+.isikotak{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.isikotak{
+    height: 350px;
+    width: 300px;
+}
+
+.isikotak h2{
+    font-size: 1px !important;
+    margin: 0;
+}
+
+.kotak1,.kotak2,.kotak3 {
+    text-align: center;
+}
+
+/* .isikotak{
+    transition: transform 0.3s ease;
+    margin-top: -70px;
+} */
+
+/* .baner{
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    height: 100vh;          
+} */
+
+.baner{
+    max-width: 100%;        
+    height: auto;           
+}
